@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae97388-4393-415c-9c67-0f236c60bac7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebooks/onchain_analysis.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/visualization.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraper.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/scraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/trading_bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4ae97388-4393-415c-9c67-0f236c60bac7" name="Changes" comment="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,21 +50,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python.scraper.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.scraper.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/juba839/PycharmProjects/OnChainHorizon",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OnChainHorizon" />
@@ -121,11 +116,49 @@
       <workItem from="1735639354876" duration="3484000" />
       <workItem from="1735642880329" duration="4449000" />
       <workItem from="1735647510713" duration="2381000" />
+      <workItem from="1735651441356" duration="3263000" />
     </task>
+    <task id="LOCAL‎-00001" summary="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup">
+      <option name="closed" value="true" />
+      <created>1735651668318</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735651668318</updated>
+    </task>
+    <task id="LOCAL‎-00002" summary="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup">
+      <option name="closed" value="true" />
+      <created>1735651693754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735651693754</updated>
+    </task>
+    <task id="LOCAL‎-00003" summary="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup">
+      <option name="closed" value="true" />
+      <created>1735651723891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735651723891</updated>
+    </task>
+    <task id="LOCAL‎-00004" summary="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup">
+      <option name="closed" value="true" />
+      <created>1735651774913</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735651774913</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OnChainHorizon$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1735649827910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
