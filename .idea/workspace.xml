@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae97388-4393-415c-9c67-0f236c60bac7" name="Changes" comment="">
+    <list default="true" id="4ae97388-4393-415c-9c67-0f236c60bac7" name="Changes" comment="Data cleansing: Cleaned up cryptocurrency links and names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scraper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.ipynb" afterDir="false" />
     </list>
@@ -118,7 +118,14 @@
       <workItem from="1735647510713" duration="2381000" />
       <workItem from="1735651441356" duration="4518000" />
       <workItem from="1735672681528" duration="7397000" />
-      <workItem from="1735804041753" duration="11491000" />
+      <workItem from="1735804041753" duration="16507000" />
+      <workItem from="1735830527098" duration="21000" />
+      <workItem from="1735830808891" duration="6146000" />
+      <workItem from="1735837966254" duration="1021000" />
+      <workItem from="1735839939334" duration="514000" />
+      <workItem from="1735844272422" duration="17874000" />
+      <workItem from="1735866748331" duration="591000" />
+      <workItem from="1735884713262" duration="5495000" />
     </task>
     <task id="LOCAL‎-00001" summary="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup">
       <option name="closed" value="true" />
@@ -160,7 +167,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1735654845842</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎-00006" summary="Data cleansing: Cleaned up cryptocurrency links and names">
+      <option name="closed" value="true" />
+      <created>1735820131598</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735820131599</updated>
+    </task>
+    <task id="LOCAL‎-00007" summary="Data cleansing: Cleaned up cryptocurrency links and names">
+      <option name="closed" value="true" />
+      <created>1735835715835</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735835715835</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,9 +191,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup" />
+    <MESSAGE value="Data cleansing: Cleaned up cryptocurrency links and names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data cleansing: Cleaned up cryptocurrency links and names" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/OnChainHorizon$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1735649827910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/OnChainHorizon$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1735894150109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
