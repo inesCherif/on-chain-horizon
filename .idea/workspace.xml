@@ -4,26 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae97388-4393-415c-9c67-0f236c60bac7" name="Changes" comment="currency explores scraping">
-      <change afterPath="$PROJECT_DIR$/src/scraper/scrape.py" afterDir="false" />
+    <list default="true" id="4ae97388-4393-415c-9c67-0f236c60bac7" name="Changes" comment="adding ai">
+      <change afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/analyzer/analyzer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scraper/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/visualization/dashboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Binance_XRPUSDT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/data/historical_data/Binance_XRPUSDT.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/bot_test.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/scraper_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scraper_test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/xrp_usdt_analysis_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/xrp_usdt_analysis_test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scraper_learning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/technical_indicators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/visualization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/binance_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/strategy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bot/trader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scraper/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scraper/blockchain.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scraper/coinmarketcap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xrp_usdt_analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scraper/scrape.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/scraper/scrape.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +129,7 @@
       <workItem from="1735993038511" duration="13192000" />
       <workItem from="1736006481776" duration="895000" />
       <workItem from="1736009574004" duration="96000" />
-      <workItem from="1736011072458" duration="7162000" />
+      <workItem from="1736011072458" duration="14792000" />
     </task>
     <task id="LOCAL‎-00001" summary="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup">
       <option name="closed" value="true" />
@@ -228,7 +219,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1735993083586</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL‎-00012" summary="adding ai">
+      <option name="closed" value="true" />
+      <created>1736020177226</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1736020177226</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +239,8 @@
     <MESSAGE value="extracting all networks from each link we have" />
     <MESSAGE value="onchain analysis" />
     <MESSAGE value="currency explores scraping" />
-    <option name="LAST_COMMIT_MESSAGE" value="currency explores scraping" />
+    <MESSAGE value="adding ai" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding ai" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OnChainHorizon$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1735894150109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
