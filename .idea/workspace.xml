@@ -4,9 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae97388-4393-415c-9c67-0f236c60bac7" name="Changes" comment="extracting all networks from each link we have">
-      <change afterPath="$PROJECT_DIR$/xrp_usdt_onchain_analysis.ipynb" afterDir="false" />
+    <list default="true" id="4ae97388-4393-415c-9c67-0f236c60bac7" name="Changes" comment="onchain analysis">
+      <change afterPath="$PROJECT_DIR$/notebooks/bot_test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/analysis/visualization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bot/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bot/binance_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bot/strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bot/trader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scraper/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scraper/blockchain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scraper/coinmarketcap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xrp_usdt_analysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/onchain_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scraper_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/visualization.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/trading_bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/technical_indicators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrp_usdt_onchain_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/xrp_usdt_analysis_test.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +73,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/juba839/PycharmProjects/OnChainHorizon&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/juba839/PycharmProjects/OnChainHorizon/notebooks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,6 +82,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon\notebooks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon" />
+      <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon\notebooks" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OnChainHorizon" />
@@ -128,7 +153,12 @@
       <workItem from="1735884713262" duration="11140000" />
       <workItem from="1735901473544" duration="85000" />
       <workItem from="1735901657862" duration="326000" />
-      <workItem from="1735902002788" duration="3384000" />
+      <workItem from="1735902002788" duration="6944000" />
+      <workItem from="1735912398480" duration="2695000" />
+      <workItem from="1735916046833" duration="4011000" />
+      <workItem from="1735920729137" duration="450000" />
+      <workItem from="1735922498769" duration="3285000" />
+      <workItem from="1735974623731" duration="17207000" />
     </task>
     <task id="LOCAL‎-00001" summary="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup">
       <option name="closed" value="true" />
@@ -194,7 +224,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1735895908573</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎-00009" summary="onchain analysis">
+      <option name="closed" value="true" />
+      <created>1735905937828</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735905937828</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +242,8 @@
     <MESSAGE value="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup" />
     <MESSAGE value="Data cleansing: Cleaned up cryptocurrency links and names" />
     <MESSAGE value="extracting all networks from each link we have" />
-    <option name="LAST_COMMIT_MESSAGE" value="extracting all networks from each link we have" />
+    <MESSAGE value="onchain analysis" />
+    <option name="LAST_COMMIT_MESSAGE" value="onchain analysis" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OnChainHorizon$scraper.coverage" NAME="scraper Coverage Results" MODIFIED="1735894150109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
