@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae97388-4393-415c-9c67-0f236c60bac7" name="Changes" comment="currency explores scraping">
+      <change afterPath="$PROJECT_DIR$/src/scraper/scrape.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Binance_XRPUSDT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/data/historical_data/Binance_XRPUSDT.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/bot_test.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/scraper_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scraper_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/xrp_usdt_analysis_test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/xrp_usdt_analysis_test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scraper_learning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/technical_indicators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/analysis/visualization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/binance_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/strategy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bot/trader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scraper/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scraper/blockchain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scraper/coinmarketcap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xrp_usdt_analysis.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -38,6 +55,7 @@
 }</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -50,60 +68,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python.scraper.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/juba839/PycharmProjects/OnChainHorizon/notebooks&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.scraper.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/juba839/PycharmProjects/OnChainHorizon/notebooks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon\notebooks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon" />
+      <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon\src\scraper" />
+      <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon\src" />
       <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon\notebooks" />
+      <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon\notebooks_leaarning" />
+      <recent name="C:\Users\juba839\PycharmProjects\OnChainHorizon\notebooks\data\historical_data" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OnChainHorizon" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/scraper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.scraper" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -143,6 +135,10 @@
       <workItem from="1735920729137" duration="450000" />
       <workItem from="1735922498769" duration="3285000" />
       <workItem from="1735974623731" duration="17978000" />
+      <workItem from="1735993038511" duration="13192000" />
+      <workItem from="1736006481776" duration="895000" />
+      <workItem from="1736009574004" duration="96000" />
+      <workItem from="1736011072458" duration="7162000" />
     </task>
     <task id="LOCAL‎-00001" summary="Initial script for scraping cryptocurrency data from CoinMarketCap using Selenium and BeautifulSoup">
       <option name="closed" value="true" />
@@ -224,7 +220,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1735992276136</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎-00011" summary="currency explores scraping">
+      <option name="closed" value="true" />
+      <created>1735993083586</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1735993083586</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
